@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tresenrallas.Controller">
+   <children>
+      <TableView layoutX="134.0" layoutY="70.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn prefWidth="139.0" text="Player" />
+          <TableColumn prefWidth="147.0" text="Win" />
+            <TableColumn prefWidth="128.0" text="Lost" />
+            <TableColumn prefWidth="185.0" text="Tied" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
